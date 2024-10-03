@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* write your CSS here */
+
+
+body {
+    font-family: "Mulish", sans-serif;
+    cursor: default;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.icons a {
+    height: 82px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 38px;
+    color: #1E1411;
+}
+.icons a i {
+    background-color: transparent
+}
+.icons a:hover {
+    border: 1px solid;
+    transition: .5s;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 40px;
+    width: 820px;
+    height: 420px;
+    background: #EDE9E2;
+    padding: 82px;
+    box-shadow: 12px 12px 0 0 rgba(197, 174, 167, 1);
+}
+
+.sub {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.head {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.copylink input {
+    cursor: default;
+    width: 672px;
+    height: 56px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #D9D9D9;
+}
+
+.copylink {
+    position: relative;
+}
+
+.copylink input::placeholder {
+    color: black; /* Set placeholder text color to black */
+}
+
+.copylink button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    font-size:16px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.copylink button:hover {
+   color: #fff;
+   transition: .4s;
+}
